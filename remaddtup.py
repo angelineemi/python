@@ -1,0 +1,6 @@
+tup=(1,2,3,4,5)
+lis=list(tup)
+print(lis.pop())
+print(lis)
+lis.insert(4,6)
+print(lis)
