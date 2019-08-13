@@ -1,0 +1,5 @@
+--create TABLE doc_info(doc_id number(4),name varchar2(15),specialization varchar2(15),phno number(10),available_time varchar2(4) CHECK(available_time in('mor','aftn','eve')));
+--insert into doc_info (doc_id,name,specialization,phno,available_time) values(100,"santhosh","general surgeon",9798104709,"mor");
+--select* from doc_info;
+--value wont be changed because it violates the given constraint
+--update doc_info set available_time="4" where name="santhosh";
