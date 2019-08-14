@@ -45,3 +45,12 @@ select* from doc_inform;
 --insert into patient_info(id,title,first_name,last_name,age,gender,email) values(105,"mr","jason","punnuse",60,"male","jason123@gmail.com");
 --insert into patient_info(id,title,first_name,last_name,age,gender,email) values(106,"mr","thomas","kuryan",70,"male","thommytom@gmail.com");
 select* FROM patient_info;
+--create table consultation_info(id number(3),health_issue varchar2(15), fees number(4), consult_date date);
+--insert into consultation_info(id,health_issue,fees,consult_date) values(101,"allergy",500,date());
+--insert into consultation_info(id,health_issue,fees,consult_date) values(102,"allergy",500,date());
+--insert into consultation_info(id,health_issue,fees,consult_date) values(103,"fever",500,date());
+--insert into consultation_info(id,health_issue,fees,consult_date) values(104,"headache",500,date());
+--insert into consultation_info(id,health_issue,fees,consult_date) values(105,"ear pain",500,date());
+--insert into consultation_info(id,health_issue,fees,consult_date) values(106,"rashes",500,date());
+SELECT* from consultation_info;
+
