@@ -37,3 +37,5 @@
 --select first_name,last_name from patient_info where gender not like "female";
 --select count(first_name) from patient_info where gender="male";
 --SELECT p1.id,first_name,gender,consult_date from patient_info as p1 join consultation_info as c1 on p1.id=c1.id;
+--SELECT*from doc_inform order by name;
+--select first_name from patient_info GROUP by id;
